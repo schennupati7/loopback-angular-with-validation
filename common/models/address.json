@@ -1,0 +1,38 @@
+{
+  "name": "address",
+  "plural": "Address",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "string",
+      "required": false
+    },
+    "mobile": {
+      "type": "string",
+      "required": false
+    },
+    "city": {
+      "type": "string",
+      "required": false
+    },
+    "state": {
+      "type": "string",
+      "required": false
+    },
+    "zip": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
